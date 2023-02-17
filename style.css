@@ -1,0 +1,102 @@
+body {
+    background-image: url(bagel.jpg);
+    background-size: contain;
+    background-position-y: 13px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "contralto-big", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
+    font-size: 135px;
+}
+h3 {
+    font-family: "swear-display", serif;
+    font-weight: 600;
+    font-style: normal;
+    
+    color: white;
+    font-size: 49px;
+}
+p {
+    font-family: "swear-display", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    color: white;
+    font-size: 23px;
+}
+
+span.z {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    /*
+    border: 1px solid blue;  
+    */
+}
+span.a {
+    display: inline-block;
+    width: 58vw;
+    height: 60vh;
+    /*
+    padding: 5px; 
+    border: 1px solid blue;   
+    background-color: red; 
+    */
+    text-align: right;
+
+
+    line-height: 5vh;
+
+    /*
+    left: 930px;
+    top: 40px;
+    */
+    position: absolute;
+    left: 522px;
+    top: 3px;
+}
+
+span.b {
+    display: block;
+    width: 492px;
+    height: 272px;
+    padding: 5px;
+    /*
+    border: 1px solid blue;    
+    background-color: blue; 
+    */
+
+    left: 38px;
+    top: 70px;
+
+    text-align: justify;
+/*
+    display: flex;
+    align-items: flex-start;
+    */
+}
+span.c {
+    display: block;
+    width: 492px;
+    height: 470px;
+    padding: 5px;
+    /*
+    border: 1px solid blue;    
+    */
+    background-color: purple; 
+
+    left: 38px;
+    top: 536px;
+
+    text-align: justify;
+    /*
+    display: flex;
+    align-items: flex-end;
+    */
+}
